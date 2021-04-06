@@ -1,0 +1,136 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Playfair Display', serif; 
+}
+/* Contenedor de la tienda */
+.tienda{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+}
+.banner h1{
+    color: #939393;
+    font-size: 50px;
+    text-decoration: underline #111;
+}
+.titulo{
+    color:brown;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+/* Header */
+header{
+    width: 100%;
+    height: 500px;
+    background:#000;
+}
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+}
+nav > a:hover{
+    color: darkmagenta;
+}
+.container{
+    width: 95%;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+}
+.imagen{
+    display: block;
+    height: 500px;
+    width: 500px;
+    border-radius: 50px;
+    padding: 100px;
+}
+.textos{
+    color: #fff;
+    width: 50%;
+}
+.textos h1{
+    font-size: 80px;
+}
+.textos h2{
+    font-size: 40px;
+} 
+/* Ola */
+.wave{ 
+    width: 100%;
+    height: 100px;
+    background: #000;
+}
+/*Footer */
+footer{
+    background: url(../img/6.jpg);
+    width: 100%;
+    height: auto;
+    font-family: 'Open sans';
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-contenido{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-contenido h3{
+    font-size: 40px;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 60px;
+}
+.footer-contenido p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 16px;
+}
+.sociales{
+    list-style: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 20px 0 60px 0;
+}
+.sociales li{
+    margin: 0 10px;
+}
+.sociales a{
+    text-decoration: none;
+    color: #fff;
+}
+.sociales a i{
+    font-size: 30px;
+}
+.sociales a:hover i{
+    color: darkmagenta;
+}
+.footer-barra{
+    background: #111;
+    padding: 20px 0;
+    text-align: center;
+}
+.footer-barra p{
+    font-size: 14px;
+}
+.icon-flash{
+    font-size: 40px;
+}
